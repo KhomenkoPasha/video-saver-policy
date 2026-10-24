@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="How Video Saver handles local video data, requests to Blender Video, and support enquiries."><title>Privacy policy — Video Saver</title><link rel="stylesheet" href="style.css"></head>
+<body><header><a class="brand" href="index.html">Video Saver · Offline Library</a><nav aria-label="Documents"><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a><a href="privacy-ru.html" lang="ru">Русский</a></nav></header>
+<main>
+<h1>Privacy policy</h1><p class="meta">Effective and last updated: 24 October 2026. Version 1.0 of this policy, covering Video Saver — Offline Library 2.0.0.</p>
+<p><strong>Pavlo Khomenko</strong> develops Video Saver (Android package <code>videosaver.khomenko.videosaver</code>). For privacy questions or requests, email <a href="mailto:hompavlik@gmail.com">hompavlik@gmail.com</a>.</p>
+<div class="summary">Your video library stays on your device. The app has no registration, advertising, analytics SDK, crash-reporting SDK, or developer-operated backend. It connects directly to Blender Video when you ask it to check or download a supported video. These network requests expose connection information to that service.</div>
+<h2>1. Data handled on your device</h2>
+<ul>
+<li><strong>Links:</strong> text you type, paste, or send through Android Share is processed to identify a supported video URL. The app reads the clipboard only when you press “Paste link”. It does not monitor the clipboard in the background.</li>
+<li><strong>Library:</strong> downloaded video files, titles, author names, original and download URLs, license information, quality, duration, file size, download identifiers/status, and local filenames are stored on the device.</li>
+<li><strong>Preferences:</strong> collection names, playback positions and the Wi-Fi-only setting are stored locally. Search text filters your local library. Android may retain screen state, such as the current input, while restoring the app.</li>
+</ul>
+<p>These local library records, searches, collections and playback positions are not uploaded to a developer server. The app does not request access to contacts, microphone, camera, location, advertising ID or all files on your device.</p>
+<h2>2. Requests to Blender Video</h2>
+<p>The current supported source is <a href="https://video.blender.org">video.blender.org</a>, a PeerTube service operated within the Blender domain. Checking a link sends its video identifier in an HTTPS API request. Saving a video sends an HTTPS request for the selected file through Android DownloadManager. Downloads may continue or retry in the background after you leave the app.</p>
+<p>The receiving service and its infrastructure can see your IP address, the requested path/video, request time and standard connection/client information, such as a User-Agent. The app does not send the entire shared message, clipboard contents, collection names or playback positions in these requests. No app account or user-specific tracking identifier is added.</p>
+<p>Blender may process and retain server/security logs under its own <a href="https://www.blender.org/privacy-policy/">privacy policy</a>. We do not operate its servers, control its retention periods, or promise that these requests are processed only temporarily. Offline playback of a completed download does not require a request to Blender Video.</p>
+<h2>3. Android, external links and this website</h2>
+<p>Android DownloadManager receives the download URL, title, author, destination and network preference to manage the transfer and notification. The app uses Internet access and network-state information for its online features. Device/system services operate under the device provider’s settings and policies.</p>
+<p>Documents bundled inside the app can be read offline; their reader does not load remote content. If you tap an external source, license, public policy or email link, the corresponding browser or email app opens. That service handles the resulting interaction under its own policy.</p>
+<p>The public policy website is hosted by GitHub Pages. Visiting it sends normal web-request information to GitHub under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>. We have not added advertising, analytics, tracking pixels, forms, or cookies to these static pages.</p>
+<h2>4. Support correspondence</h2>
+<p>If you email us, we receive your sender address, the name supplied by your email client, your message and any attachments you choose to send. We use them to answer the request, investigate a reported issue or address a rights complaint. Do not send passwords, private video links or unrelated sensitive information.</p>
+<p>The support mailbox is hosted by Gmail; email is processed by the relevant email providers, including Google under its <a href="https://policies.google.com/privacy">privacy policy</a>. We retain correspondence while reasonably needed to respond, resolve the matter, or meet applicable recordkeeping obligations. You can request deletion using the contact above; any legally required retention will be explained.</p>
+<h2>5. Retention and deletion</h2>
+<ul>
+<li>Use “Delete” in the library to remove an app-managed local video and its library entry, including its saved playback position and collection assignment.</li>
+<li>Use “Cancel download” to remove an active download from the app/system queue and discard its app-managed partial file.</li>
+<li>To remove all local app data and preferences, clear the app’s storage in Android settings or uninstall it. Android may manage system records separately.</li>
+<li>The app has no user accounts, cloud video library, or remote account to delete. It does not implement cloud sync; backup is disabled in its manifest. Device migration/system behaviour is controlled by Android and the device manufacturer.</li>
+</ul>
+<p>Deleting local data does not delete a video from Blender Video, erase that service’s logs, or remove support emails. Requests about those service records should go to their respective operators.</p>
+<h2>6. Security and your choices</h2>
+<p>App video/API requests use HTTPS. Library files are stored in the app-specific storage area and metadata in private app preferences; there is no additional app-level password or encryption layer. Device access controls and encryption depend on Android and your settings. No method of storage or transfer is guaranteed completely secure.</p>
+<p>We do not sell user data or use it for advertising profiles. You may use downloaded videos offline, stop a download, delete local data, and contact us about data processed in support correspondence. Where applicable law gives you additional rights, including access, correction, deletion or objection, you may exercise them through the contact above. These rights are not limited by this policy.</p>
+<h2>7. Changes and contact</h2>
+<p>If the app’s data practices change, we will update this policy and its date. New data-handling features will be explained in the relevant app version, with any notice or consent required by applicable rules. The bundled text describes the version installed on your device.</p>
+<p><strong>Pavlo Khomenko</strong><br>Privacy and support: <a href="mailto:hompavlik@gmail.com">hompavlik@gmail.com</a></p>
+</main><footer><a href="terms.html">Terms of use</a> · <a href="privacy-ru.html" lang="ru">Русская версия</a></footer></body></html>
